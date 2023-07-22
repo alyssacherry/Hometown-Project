@@ -1,0 +1,92 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+   text-align: center;
+}
+
+#hero {
+    background-image: url(images/downtown.webp);
+    background-size: cover;
+    padding: 250px 250px;
+    display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   
+}
+#hero h1 {
+    background: #457B9D;
+    color: white;
+    padding: 5px 30px;
+    border-radius: 5px;
+    margin: 0px;
+
+}
+#hero h2 {
+    background: #1D3557;
+    color: white;
+    padding: 5px 30px;
+    border-radius: 5px;
+    margin: 15px;
+}
+img {
+    width: 150px;
+    border-radius: 20px;
+    height: 130px;
+}
+.fun {
+    background: #F1FAEE;
+    background-size: 100%;
+    margin: -20px;
+    padding: 10px 10px 10px 10px;
+}
+
+#Activities {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: #1D3557;
+}
+.Disney {
+    margin: auto;
+    padding: 5px 10px 5px 10px;
+}
+.Eola {
+    margin: auto;
+    padding: 5px 10px 5px 20px;
+}
+.Gardens {
+    margin: auto;
+    padding: 5px 10px 5px 10px;
+}
+
+#card-background {
+    background: white;
+    padding: 40px 0 40px 0;
+}
+
+.card {
+    display: block;
+    background: #A8DADC;
+    border-bottom: 10px solid #457B9D;
+    width: 400px;
+    margin: 0 auto;
+    padding: 50px 30px 0px 30px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+avatar {
+    width: 160px;
+    height: 300px;
+    border-radius: 10px;
+
+}
